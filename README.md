@@ -4,7 +4,7 @@ This is an example Nerves application that crashes immediately in order to demon
 
 Here's what happens if you watch the bootup sequence with your serial monitor.
 
-**Goal: be able to configure somewhere (and be honored by `bake`) whether or not we are to hang**
+**Goal: control if we are to hang or auto-restart, as an application developer. Either implicitly via dev/prod distinction or explicitly in a config somewhere -- thoughts?**
 
 ```
 synapse:Workspace keyvan$ miniterm.py /dev/cu.usbserial-AFYS0X3Z 115200
