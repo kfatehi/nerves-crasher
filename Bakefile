@@ -1,0 +1,6 @@
+use Bake.Config
+
+platform :nerves
+
+target :bbb,
+  recipe: "nerves/bbb"
